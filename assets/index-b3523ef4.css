@@ -1,0 +1,1 @@
+.list-test{list-style-type:none;padding:0}.list-test-item{cursor:pointer;padding:.5em;border:.5px solid grey;border-radius:.2em;margin-bottom:.5em;transition:box-shadow .3s}.list-test-item:hover{box-shadow:#00000029 0 1px 4px}.list-test-item-clicked{background-color:#6495ed;color:#fff}*{box-sizing:border-box}
