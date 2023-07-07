@@ -101,6 +101,9 @@ const MainPage = () => {
       <hr/>
       
       <HookTestRouter page={page} />
+
+      <hr />
+      <div>Contact me: minhphammull@gmail.com</div>
     </>
   );
 }
