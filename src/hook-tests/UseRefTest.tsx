@@ -1,11 +1,11 @@
-import { ChangeEvent, useCallback, useRef } from "react";
+import { useCallback, useRef } from "react";
 
 const UseRefTest = () => {
   console.log('UseRefTest - render');
   const inputRef = useRef(null as any);
   const numRef = useRef(0);
 
-  const handleInputChange = useCallback((event: ChangeEvent<HTMLInputElement>) => {
+  const handleInputChange = useCallback(() => {
     console.log('useRef - input - currentValue: ' + inputRef?.current?.value);
   }, []);
 
