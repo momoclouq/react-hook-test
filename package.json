@@ -3,10 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://momoclouq.github.io/react-hook-test",
+  "homepage": "https://momoclouq.github.io/react-hook-test/",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -b deploy",
+    "deploy": "rm -rf node_modules/.cache/gh-pages; gh-pages -d dist -b deploy",
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
