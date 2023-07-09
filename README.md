@@ -9,7 +9,7 @@ A project to learn and demonstrate various React hooks
 
 ## Other tools/topics that you should check
 1. React devtools: debug react app on the browser
-2. debugger
+2. debugger: you should check [basic guide](https://profy.dev/article/debug-react-vscode) and [VScode documentation](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations)
 3. [How browser works](https://dev.to/arikaturika/how-web-browsers-work-part-1-with-illustrations-1nid)
 
 ## Some notes
